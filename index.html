@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Modo Oscuro</title>
+
+    </head>
+<body>
+    <div class="container">
+        <h1> Modo Oscuro</h1>
+        <button onclick="modoOscuro()">Activar</button>
+        <button onclick="modoClaro()">Desactivar</button>
+    </div>
+</body>
+<script>
+    function modoOscuro(){
+        document.body.style.background='black'
+    }
+    function modoClaro(){
+        document.body.style.background='white'
+    }
+</script>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>modo oscuro</title>
+
+    </head>
+<body>
+    <div class="container">
+        <h1> Modo oscuro</h1>
+        <button onclick="cambiarColor()">Modo Oscuro</button>
+    </div>
+</body>
+<script>
+    function cambiarColor(){
+        document.body.classList.toggle('dark-mode'); /* Classlist es una propiedad que devuelve una colección de clases CSS aplicadas al documento  add(añadir), remove(quitar), contains(validar), toggle(cambiar)*/
+    }
+</script>
+</html> -->
